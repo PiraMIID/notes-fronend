@@ -1,3 +1,26 @@
-<h1>siemaa</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <h3 href="#!" class="font-italic" aria-live="assertive"  > FASTNOTE </h3>
+
+  <ul class="navbar-nav mc align-content-md-center"></ul>
+  <form class="form-inline ml-5 my-2 my-lg-0">
+
+    <a  class="navbar-brand  mx-md-4 align-self-center" aria-live="assertive" ><i class="fas fa-align-justify"></i> Notes list</a>
+    <a  class="navbar-brand  mx-md-4 align-self-center" aria-live="assertive"  ><i class="fas fa-pen-alt"></i> Exams</a>
+    <a class="navbar-brand  mx-md-4 align-self-center" aria-live="assertive" ><i class="fas fa-list"></i> To do</a>
+  </form>
+
+
+
+  <ul class="navbar-nav mr-auto"></ul>
+  <form class="form-inline my-2 my-lg-0">
+    <a href="#!login" class="navbar-brand  nav-link"  aria-live="assertive" *ngIf="!isLoggedIn" ><i class="fas fa-user"></i> Login</a>
+    <a href="#!signup" class="navbar-brand  nav-link"  aria-live="assertive"  *ngIf="!isLoggedIn"><i class="fas fa-user-edit"></i> Sign Up</a>
+
+    <a href="#!/notes" class="navbar-brand mx-md-5 nav-link "   *ngIf="isLoggedIn" ><i class="fas fa-user-graduate"></i> username:  {{username}}</a>
+    <a href="#!logout" type="submit" class="navbar-brand" aria-live="assertive" *ngIf="!isLoggedIn" (click)="tokenStorage.logOut()" )> <i class="fas fa-door-open"></i></a>
+  </form>
+</nav>
+
+
 
 <router-outlet></router-outlet>

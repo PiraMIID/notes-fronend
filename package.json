@@ -1,6 +1,9 @@
 {
   "name": "firsttypescript",
   "version": "0.0.0",
+  "config": {
+//    "port": 8080
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,7 +23,12 @@
     "@angular/platform-browser-dynamic": "~11.2.10",
     "@angular/router": "^11.2.11",
     "@devoto13/angular-fontawesome": "^0.5.0-5",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@ng-bootstrap/schematics": "^2.0.0-alpha.1",
     "@ngrx/router-store": "^11.1.1",
+    "bootstrap": "^4.6.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.6.0",
     "rxjs": "^6.6.7",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.3"

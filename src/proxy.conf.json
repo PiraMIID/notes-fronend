@@ -1,0 +1,9 @@
+{
+  "/api": {
+    "target": "http://localhost:8080",
+    "secure": false,
+    "headers": {
+      "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkYXdpZCIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifV0sImlhdCI6MTYxOTMxODA1MSwiZXhwIjoxNjIwMTY1NjAwfQ.-_BLLxr0p6u-Y6nu1nQtj8TS2RT9rgnO6x0nmDMNDOjHWcPU8bjGXFzhzIAPNK0nERkq3Cn6Xcr5mygogfaSDQ"
+    }
+  }
+}
